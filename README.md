@@ -1,4 +1,4 @@
-Alpine Container for Packaging
+Alpine Image Builder for Packaging
 =====
 
 This is a simply a container meant to be run rootless to ease alpine package
