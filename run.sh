@@ -5,4 +5,5 @@ podman run                        \
 	-v "$PWD/aports:/root/aports"   \
 	--group-add=abuild              \
 	--cap-add=cap_net_raw           \
-	localhost/alpine-build /bin/sh
+	--env-file=./.env               \
+	localhost/alpine-packaging-image /bin/sh
